@@ -10,7 +10,7 @@
 
 ---
 
-## Launch the Simulator **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/)** 
+## **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/)** 
 
 ---
 ## What Is This?

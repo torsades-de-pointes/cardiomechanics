@@ -10,24 +10,16 @@
 
 ---
 
-## ▶️ Launch the Simulator
-
-| | Version | Link | Best for |
-|---|---------|------|----------|
-| 🖥️ | **Desktop** | **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/index.html)** | Laptop / desktop — full features, animated loop, 6 themes |
-| 📱 | **Mobile / Offline** | **[Launch Mobile Simulator](https://torsades-de-pointes.github.io/cardiomechanics/mobile.html)** | Phone, tablet, or anywhere without internet |
-
-📄 [Fellows Learning Guide (PDF)](https://torsades-de-pointes.github.io/cardiomechanics/CardioMechanics_Fellows_Guide.pdf) &nbsp;·&nbsp; 🔧 [Technical Reference (PDF)](https://torsades-de-pointes.github.io/cardiomechanics/CardioMechanics_Technical_Reference.pdf)
+## Launch the Simulator **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/)** 
 
 ---
-
 ## What Is This?
 
 CardioMechanics is a single-file HTML simulator that models left ventricular haemodynamics using the **time-varying elastance model** (Sagawa 1981). It is designed for **cardiology fellows, residents, medical students, and educators** to build mechanistic, intuitive understanding of PV loop physiology.
 
 Inspired by and built on [Nick Mark MD's open-source PV loop simulator](https://nickmmark.github.io/pressure-volume-loops/) (MIT license).
 
-> ⚠️ **Not a clinical tool.** Must never be used for patient care or clinical decision-making.
+> **Not a clinical tool.** Must never be used for patient care or clinical decision-making.
 
 ---
 
@@ -43,29 +35,10 @@ Inspired by and built on [Nick Mark MD's open-source PV loop simulator](https://
 
 ---
 
-## Quick Start
-
-### 🌐 Online (easiest — works on any device)
-Click the Launch links above. No download needed.
-
-### 📱 Use Offline on Your Phone (no internet needed after first load)
-1. Open the **[Mobile Simulator](https://torsades-de-pointes.github.io/cardiomechanics/mobile.html)** in your phone's browser
-2. **iPhone/iPad (Safari):** Tap the Share button → "Add to Home Screen" → it becomes an app icon  
-3. **Android (Chrome):** Tap ⋮ → "Add to Home Screen" or "Install app"  
-4. Once added, it works **completely offline** — no internet needed
-
-### 💾 Download and Use Locally (no internet at all)
-1. Click **Code → Download ZIP** above
-2. Unzip the folder
-3. Open `mobile.html` in any browser — works from your Downloads folder with no internet
-4. `index.html` is the full desktop version (needs internet for D3.js library)
-
----
-
 ## How to Cite
 
 ```
-CardioMechanics PV Loop Simulator (2025). An interactive browser-based educational 
+CardioMechanics PV Loop Simulator (2026). An interactive browser-based educational 
 tool for left ventricular pressure–volume loop physiology. 
 Available at: https://torsades-de-pointes.github.io/cardiomechanics/
 Physics engine adapted from: Mark N (2024). pressure-volume-loops. 
@@ -77,7 +50,7 @@ GitHub: github.com/nickmmark/pressure-volume-loops (MIT License).
 @software{cardiomechanics2025,
   title  = {CardioMechanics PV Loop Simulator},
   author = {Parcha, Vibhu},
-  year   = {2025},
+  year   = {2026},
   url    = {https://torsades-de-pointes.github.io/cardiomechanics/},
   note   = {Physics engine adapted from Mark N (2024)
             pressure-volume-loops (MIT License).
@@ -118,10 +91,10 @@ The core physics engine is adapted from Nick Mark's open-source simulator:
 
 CardioMechanics is **for educational purposes only.**
 
-- ❌ Do NOT use for clinical decision-making
-- ❌ Do NOT use for patient management or diagnosis
-- ✅ DO use for teaching, self-study, and presentations
-- ✅ DO use to build mechanistic intuition for cardiovascular physiology
+-  Do NOT use for clinical decision-making
+-  Do NOT use for patient management or diagnosis
+-  DO use for teaching, self-study, and presentations
+-  DO use to build mechanistic intuition for cardiovascular physiology
 
 ---
 

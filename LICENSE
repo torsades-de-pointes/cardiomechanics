@@ -1,6 +1,13 @@
 MIT License
 
-Copyright (c) 2026 torsades-de-pointes
+CardioMechanics PV Loop Simulator
+Copyright (c) 2025 CardioMechanics Contributors
+
+This software includes a physics engine adapted from:
+  pressure-volume-loops
+  Copyright (c) Nick Mark MD
+  https://github.com/nickmmark/pressure-volume-loops
+  Used under the MIT License — original copyright preserved below.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +26,66 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+───────────────────────────────────────────────────────────────────────────────
+ORIGINAL UPSTREAM LICENSE (Nick Mark's pressure-volume-loops)
+───────────────────────────────────────────────────────────────────────────────
+
+MIT License
+
+Copyright (c) Nick Mark MD
+https://github.com/nickmmark/pressure-volume-loops
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+───────────────────────────────────────────────────────────────────────────────
+MODIFICATIONS FROM ORIGINAL
+───────────────────────────────────────────────────────────────────────────────
+
+The following modifications were made to Nick Mark's original physics engine:
+
+1. Elastance shape factor: n changed from 8 to 3 (smoother activation curve,
+   prevents unrealistic LVP spikes above aortic pressure in normal physiology)
+
+2. Aortic valve conductance: kAv increased from 18 to 28 mL/s/mmHg
+   (faster valve opening; LVP-AoP gradient equalises physiologically)
+
+3. Windkessel runoff resistance: Rr reduced from 1.2 to 0.8 mmHg·s/mL
+   (aortic pressure tracks LV ejection more closely)
+
+4. ESPVR drawing: back-calculated through actual simulation-derived end-systolic
+   point (V0_eff = ESV - ESP/Ees) rather than trusting the V0 slider directly
+
+5. PVA potential energy geometry: corrected from triangular approximation to
+   proper integration bounded by ESPVR (top), IVR vertical at ESV (right),
+   and EDPVR curve (bottom)
+
+6. Extended with: valvular pathologies (AS, AR, MS, MR), Stage 5 interventions
+   (pre/post TAVR, MVR, CRT-P), 6 UI themes (CSS variables), mobile Canvas2D
+   renderer, EDPVR Scale and Slope independent sliders, teaching notes and
+   educational stage banners throughout
+
+───────────────────────────────────────────────────────────────────────────────
+EDUCATIONAL USE DISCLAIMER
+───────────────────────────────────────────────────────────────────────────────
+
+CardioMechanics is intended for educational purposes only. It must not be used
+for clinical decision-making, patient management, or diagnosis. All physiological
+values are simplified model approximations. The simulator does not replace
+clinical judgment, medical training, or professional advice.

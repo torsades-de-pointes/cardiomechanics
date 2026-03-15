@@ -119,7 +119,7 @@ A ghost loop (dashed) shows the unsupported reference state for direct compariso
 ## How to Cite
 
 ```
-CardioMechanics PV Loop Simulator (2025). An interactive browser-based educational 
+CardioMechanics PV Loop Simulator (2026). An interactive browser-based educational 
 tool for left ventricular pressure–volume loop physiology. 
 Available at: https://torsades-de-pointes.github.io/cardiomechanics/
 Physics engine adapted from: Mark N (2024). pressure-volume-loops. 
@@ -128,10 +128,10 @@ GitHub: github.com/nickmmark/pressure-volume-loops (MIT License).
 
 **BibTeX:**
 ```bibtex
-@software{cardiomechanics2025,
+@software{cardiomechanics2026,
   title  = {CardioMechanics PV Loop Simulator},
   author = {Parcha, Vibhu},
-  year   = {2025},
+  year   = {2026},
   url    = {https://torsades-de-pointes.github.io/cardiomechanics/},
   note   = {Physics engine adapted from Mark N (2024)
             pressure-volume-loops (MIT License).
@@ -168,22 +168,21 @@ See [TECHNICAL_REFERENCE.md](TECHNICAL_REFERENCE.md) for full physics documentat
 
 CardioMechanics is **for educational purposes only.**
 
-- ❌ Do NOT use for clinical decision-making
-- ❌ Do NOT use for patient management or diagnosis
-- ✅ DO use for teaching, self-study, and presentations
-- ✅ DO use to build mechanistic intuition for cardiovascular physiology
+-  Do NOT use for clinical decision-making
+-  Do NOT use for patient management or diagnosis
+-  DO use for teaching, self-study, and presentations
+-  DO use to build mechanistic intuition for cardiovascular physiology
 
 ---
 
 ## Feedback & Contact
 
 Questions, physiological errors, suggestions for new pathologies?
-
 - **Email:** [vibhuparcha@gmail.com](mailto:vibhuparcha@gmail.com)
 - **GitHub Issues:** [Open an issue](https://github.com/torsades-de-pointes/cardiomechanics/issues)
 - **GitHub Discussions:** [Start a discussion](https://github.com/torsades-de-pointes/cardiomechanics/discussions)
 
-If you use CardioMechanics in teaching or training, a GitHub ⭐ helps others find it.
+If you use CardioMechanics in teaching or training, a GitHub ⭐ helps others find it. Please also cite when appropriate. 
 
 ---
 

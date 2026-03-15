@@ -931,7 +931,7 @@ function solveLoop(cfg,device,pLevel,ecmoRPM){
   let kFillEff=kFill*(1-msReduction);
   if(device==='ecmo') kFillEff=clamp(kFillEff*Math.exp(-0.04*ef),kFillEff*0.45,kFillEff);
 
-  const Rr=0.8;   // lower Rr: aortic runoff more responsive → Ao SBP tracks LV peak better
+  const Rr=0.4;   // lower Rr: aortic runoff more responsive → Ao SBP tracks LV peak better
   const qMax=device==='impella'?(1.5+pLevel*0.65)*1000/60*1.6:0;
   const qECMO=device==='ecmo'?ef*1000/60:0;
   const pF=(plv,pao)=>clamp(0.15+0.85*(1/(1+Math.exp(-(plv-pao+30)/12))),0,1);
@@ -979,7 +979,7 @@ function solveLoop(cfg,device,pLevel,ecmoRPM){
     const key=[cfg.ees,cfg.edv,cfg.map,cfg.v0,cfg.edpvrScale||1,cfg.edpvrSlope||1,cfg.avObs||1,cfg.aiReg||0,cfg.mrReg||0,cfg.msRed||0].join('|');
     if(caoCache.has(key)){C=caoCache.get(key);}
     else{
-      const cands=[1.0,1.2,1.4,1.6,1.8,2.0,2.3,2.6,3.0,3.4,3.8,4.2];
+      const cands=[0.5,0.8,1.0,1.2,1.5,1.8,2.2,2.6,3.0,3.5];
       let best=cands[0],bE=Infinity;
       for(const c of cands){const e=Math.abs(sim(c).sv-80);if(e<bE){bE=e;best=c;}}
       C=best; caoCache.set(key,C);

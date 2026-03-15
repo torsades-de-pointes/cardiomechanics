@@ -27,7 +27,7 @@ CardioMechanics is a single-file HTML simulator that models left ventricular hae
 
 Inspired by and built on [Nick Mark MD's open-source PV loop simulator](https://nickmmark.github.io/pressure-volume-loops/) (MIT license).
 
-> ⚠️ **Not a clinical tool.** Must never be used for patient care or clinical decision-making.
+> *Not a clinical tool* Must never be used for patient care or clinical decision-making.
 
 ---
 

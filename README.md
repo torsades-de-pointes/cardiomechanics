@@ -210,4 +210,4 @@ If you use CardioMechanics in teaching or training, a GitHub ⭐ helps others fi
 
 ---
 
-*[torsades-de-pointes.github.io/cardiomechanics](https://torsades-de-pointes.github.io/cardiomechanics/) · Educational use only · MIT License · 2025*
+*[torsades-de-pointes.github.io/cardiomechanics](https://torsades-de-pointes.github.io/cardiomechanics/) · Educational use only · MIT License · 2026*

@@ -10,14 +10,16 @@
 
 ---
 
-## ▶️ Launch the Simulator
+## Click Here to Launch the Simulator
 
 | Version | Link | Best for |
 |---------|------|----------|
-| 🖥️ **Desktop** | **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/index.html)** | Laptop / desktop - animated loop, 6 themes, full sidebar |
-| 📱 **Mobile / Offline** | **[Launch Mobile Simulator](https://torsades-de-pointes.github.io/cardiomechanics/mobile.html)** | Phone, tablet, or anywhere without internet |
+| **Desktop Version** | **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/index.html)** | Laptop / desktop - animated loop, 6 themes, full sidebar |
+| **Mobile / Offline Version ** | **[Launch Mobile Simulator](https://torsades-de-pointes.github.io/cardiomechanics/mobile.html)** | Phone, tablet, or anywhere without internet |
 
-📄 [Fellow's Learning Guide](FELLOWS_GUIDE.md) · 🔧 [Technical Reference](TECHNICAL_REFERENCE.md)
+**For Guided Learning: [Fellow's Learning Guide](FELLOWS_GUIDE.md)**
+
+**For Technical Queries: [Technical Reference](TECHNICAL_REFERENCE.md)**
 
 ---
 

@@ -1,4 +1,4 @@
-# 🫀 CardioMechanics · Pressure–Volume Loop Simulator
+# 🫀 CardioMechanics · Pressure-Volume Loop Simulator
 
 > **An interactive, browser-based educational simulator for left ventricular pressure–volume loop physiology.**  
 > No installation. No backend. No accounts. Works in any browser.
@@ -14,7 +14,7 @@
 
 | Version | Link | Best for |
 |---------|------|----------|
-| 🖥️ **Desktop** | **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/index.html)** | Laptop / desktop — animated loop, 6 themes, full sidebar |
+| 🖥️ **Desktop** | **[Launch Desktop Simulator](https://torsades-de-pointes.github.io/cardiomechanics/index.html)** | Laptop / desktop - animated loop, 6 themes, full sidebar |
 | 📱 **Mobile / Offline** | **[Launch Mobile Simulator](https://torsades-de-pointes.github.io/cardiomechanics/mobile.html)** | Phone, tablet, or anywhere without internet |
 
 📄 [Fellow's Learning Guide](FELLOWS_GUIDE.md) · 🔧 [Technical Reference](TECHNICAL_REFERENCE.md)
@@ -36,14 +36,14 @@ Inspired by and built on [Nick Mark MD's open-source PV loop simulator](https://
 | Stage | Topic | Key Concepts |
 |-------|-------|--------------|
 | **1** | Normal LV Physiology | ESPVR, EDPVR, Ea, Frank-Starling, preload, afterload, inotropy, PVA |
-| **2** | Heart Failure | HFrEF vs HFpEF — two completely different PV loop problems |
-| **3** | Valvular Disease | AS, AR, Mitral Stenosis, MR — each lesion breaks a different phase |
-| **4** | Mechanical Circulatory Support | IABP, Impella (P1–P9), VA-ECMO — and why ECMO can worsen the LV |
-| **5** | Interventions | Pre/Post TAVR, MVR, CRT-P — the loop before and after |
+| **2** | Heart Failure | HFrEF vs HFpEF - two completely different PV loop problems |
+| **3** | Valvular Disease | AS, AR, Mitral Stenosis, MR - each lesion breaks a different phase |
+| **4** | Mechanical Circulatory Support | IABP, Impella (P1–P9), VA-ECMO - and why ECMO can worsen the LV |
+| **5** | Interventions | Pre/Post TAVR, MVR, CRT-P - the loop before and after |
 
 ---
 
-## Quick Start — How to Use the Simulator
+## Quick Start - How to Use the Simulator
 
 ### 1. Choose a Pathology
 Use the **Physiology / Pathology** dropdown to select any of 13 presets across Stages 1–5. The loop, metrics, and teaching note update instantly.
@@ -62,16 +62,16 @@ Or use the **Quick Preset** buttons at the bottom of the sidebar to jump between
 
 ### 3. Animate the Loop (Desktop only)
 Click **Animate Loop** to watch the cardiac cycle in real time. Use the speed controls:
-- **Very slow** — ideal for teaching, shows each phase clearly
-- **Normal / Fast** — for exploring how the loop changes dynamically
+- **Very slow** - ideal for teaching, shows each phase clearly
+- **Normal / Fast** - for exploring how the loop changes dynamically
 
 The coloured dot traces four phases: 🟢 Filling → 🔵 Isovol. Contraction → 🔴 Ejection → 🟣 Isovol. Relaxation
 
 ### 4. Add a Stage 4 MCS Device
 Use the **Stage 4 · MCS Device** dropdown:
-- **IABP** — observe modest leftward shift
-- **Impella** — increase P-level; watch loop triangularise → teardrop shape
-- **VA-ECMO** — increase RPM; watch loop shift **right** (paradoxical LV worsening)
+- **IABP** - observe modest leftward shift
+- **Impella** - increase P-level; watch loop triangularise → teardrop shape
+- **VA-ECMO** - increase RPM; watch loop shift **right** (paradoxical LV worsening)
 
 A ghost loop (dashed) shows the unsupported reference state for direct comparison.
 
@@ -80,7 +80,7 @@ A ghost loop (dashed) shows the unsupported reference state for direct compariso
 |--------|-------|
 | **ESPVR** | Contractility ceiling (green dashed) |
 | **EDPVR** | Passive filling curve (gold dashed) |
-| **Ea** | Arterial elastance — vascular load (blue dashed) |
+| **Ea** | Arterial elastance - vascular load (blue dashed) |
 | **PE shading** | Potential energy region (≈ MVO₂ indicator) |
 | **Ao SBP/DBP** | Aortic systolic and diastolic pressure lines |
 | **Peak LVP** | Peak left ventricular pressure line |
@@ -90,20 +90,20 @@ A ghost loop (dashed) shows the unsupported reference state for direct compariso
 ### 6. Read the Metrics
 | Metric | Meaning |
 |--------|---------|
-| **Stroke Vol** | EDV − ESV (mL) |
+| **Stroke Vol** | EDV - ESV (mL) |
 | **EF** | Ejection fraction (%) |
 | **Total CO** | Cardiac output including device flow (L/min) |
 | **Ao SBP/DBP** | Aortic systolic / diastolic pressure (mmHg) |
 | **Stroke Work** | Loop area = mechanical work per beat (mmHg·L) |
-| **Ea** | ESP ÷ SV — arterial load index (mmHg/mL) |
+| **Ea** | ESP ÷ SV - arterial load index (mmHg/mL) |
 | **PVA** | Pressure-volume area ≈ myocardial O₂ consumption |
-| **Efficiency** | SW ÷ PVA × 100% — mechanical efficiency (%) |
+| **Efficiency** | SW ÷ PVA × 100% - mechanical efficiency (%) |
 
 ### 7. Use Offline on Your Phone
 1. Open the **[Mobile Simulator](https://torsades-de-pointes.github.io/cardiomechanics/mobile.html)** in your phone's browser
 2. **iPhone/iPad (Safari):** Tap Share → **"Add to Home Screen"** → it becomes a permanent app icon
 3. **Android (Chrome):** Tap ⋮ → **"Add to Home Screen"** or **"Install app"**
-4. Once added, it works **completely offline** — no internet needed
+4. Once added, it works **completely offline** - no internet needed
 
 ---
 
@@ -147,7 +147,7 @@ GitHub: github.com/nickmmark/pressure-volume-loops (MIT License).
 ### This Project
 Released under the **MIT License**. See [LICENSE](LICENSE).
 
-### Physics Engine — Nick Mark MD (MIT)
+### Physics Engine - Nick Mark MD (MIT)
 The core physics engine is adapted from Nick Mark's open-source simulator:
 
 > **Mark N** (2024). *pressure-volume-loops*. GitHub: [github.com/nickmmark/pressure-volume-loops](https://github.com/nickmmark/pressure-volume-loops). MIT License.
@@ -191,8 +191,8 @@ If you use CardioMechanics in teaching or training, a GitHub ⭐ helps others fi
 | Person | Contribution |
 |--------|-------------|
 | **Nick Mark MD** | Original [pressure-volume-loops](https://github.com/nickmmark/pressure-volume-loops) (MIT). Physics engine foundation. |
-| **Richard E. Klabunde PhD** | [cvphysiology.com](https://cvphysiology.com) — definitive free cardiovascular physiology resource |
-| **Alex Yartsev** | [derangedphysiology.com](https://derangedphysiology.com) — precise, referenced PV loop explanations |
+| **Richard E. Klabunde PhD** | [cvphysiology.com](https://cvphysiology.com) - definitive free cardiovascular physiology resource |
+| **Alex Yartsev** | [derangedphysiology.com](https://derangedphysiology.com) - precise, referenced PV loop explanations |
 | **Hiroyuki Suga & Kiichi Sagawa** | 1970s–80s experimental work establishing the elastance model |
 
 ---

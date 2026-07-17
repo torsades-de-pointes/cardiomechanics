@@ -1,7 +1,7 @@
 # 🫀 CardioMechanics 2.0 · Pressure-Volume Loop Simulator
 
 **An interactive, browser-based educational simulator for left ventricular pressure-volume loop physiology.**
-No installation. No backend. No accounts. One HTML file. Works in any browser, on any device, offline.
+No installation. Works in any browser, on any device, offline.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-a8465c) ![Educational Only](https://img.shields.io/badge/Use-Educational%20only-5f5449) ![Conditions](https://img.shields.io/badge/Conditions-24-2f7a5c) ![FOAMed](https://img.shields.io/badge/FOAMed-Free%20for%20all-a9761b) ![Works offline](https://img.shields.io/badge/Works-Offline-41608f)
 
@@ -185,11 +185,9 @@ There is no build step and no dependencies.
 ## How to Cite
 
 ```
-CardioMechanics 2.0 PV Loop Simulator (2026). An interactive browser-based educational
+Parcha, V. CardioMechanics 2.0 PV Loop Simulator (2026). An interactive browser-based educational
 tool for left ventricular pressure-volume loop physiology.
 Available at: https://torsades-de-pointes.github.io/cardiomechanics/
-Physics engine adapted from: Mark N (2024). pressure-volume-loops.
-GitHub: github.com/nickmmark/pressure-volume-loops (MIT License).
 ```
 
 BibTeX:

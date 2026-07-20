@@ -157,31 +157,6 @@ This is a **single left ventricle** model. There is no right heart, no explicit 
 
 ---
 
-## Deploy Your Own Copy
-
-There is no build step and no dependencies.
-
-**Update this repository**
-
-1. Open the repository on GitHub
-2. Click **Add file**, then **Upload files**
-3. Drag in `index.html`. It replaces the old one
-4. Write a commit message and click **Commit changes**
-5. GitHub Pages rebuilds by itself. Hard refresh the site with Ctrl+Shift+R or Cmd+Shift+R
-
-**Start a new repository**
-
-1. Create a **Public** repository
-2. Upload `index.html` to the root. The file must keep that name
-3. Open **Settings**, then **Pages**
-4. Under **Build and deployment**, set **Source** to **Deploy from a branch**
-5. Set the branch to `main` and the folder to `/ (root)`, then **Save**
-6. The URL appears at the top of that page after about a minute
-
-**Run it locally**: double-click `index.html`. Nothing else is needed.
-
----
-
 ## How to Cite
 
 ```

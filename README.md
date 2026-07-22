@@ -1,14 +1,32 @@
 # 🫀 CardioMechanics 2.0 · Pressure-Volume Loop Simulator
 
 **An interactive, browser-based educational simulator for left ventricular pressure-volume loop physiology.**
-No installation. Works in any browser, on any device, offline.
+No installation. Works in any browser, on any device, offline. Now also available as an App
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-a8465c) ![Educational Only](https://img.shields.io/badge/Use-Educational%20only-5f5449) ![Conditions](https://img.shields.io/badge/Conditions-24-2f7a5c) ![FOAMed](https://img.shields.io/badge/FOAMed-Free%20for%20all-a9761b) ![Works offline](https://img.shields.io/badge/Works-Offline-41608f)
 
-### ▶ [Launch the Simulator](https://torsades-de-pointes.github.io/cardiomechanics/)
+--------------------------------------------------------------------------------------------------------
+**Now Available as a Downloadable App 🫀 📲:**
 
-Version 2.0 is a single responsive build. The separate desktop and mobile pages are gone. The same file now adapts to phone, tablet and desktop, and still runs with no internet.
+_For iPhone 📱 (Safari not Chrome, for install to work):_
+- Open https://torsades-de-pointes.github.io/cardiomechanics/ in Safari
+- Tap the Share icon (square with arrow) → Add to Home Screen → Add
+- Check the home-screen icon: should be the ivory tile with the red heart, labeled "CardioMechanics"
+- Tap the icon to launch — it should open full-screen with no Safari address bar
+- Turn on Airplane Mode, close the app fully (swipe up), reopen it from the home screen — it should still load. That confirms offline works.
 
+_For Android 📳 (or Chrome):_
+- Open https://torsades-de-pointes.github.io/cardiomechanics/ in Chrome
+- You should see a banner or "Install app" prompt automatically; if not, tap the ⋮ menu → Install app
+- Launch it from the home screen — same full-screen check
+- Airplane Mode → reopen; same offline check as above
+--------------------------------------------------------------------------------------------------------
+
+### ▶ [Click Here to Launch the Web Simulator:_🫀 CardioMechanics 2.0_](https://torsades-de-pointes.github.io/cardiomechanics/)
+
+--------------------------------------------------------------------------------------------------------
+
+Version 2.0 is a single responsive build. The same file now adapts to phone, tablet and desktop, and still runs with no internet.
 | Where to go | What it gives you |
 |---|---|
 | **Learn** tab, in the app | An 8 chapter handbook that starts from first principles |

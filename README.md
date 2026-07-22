@@ -12,7 +12,7 @@ _For iPhone 📱 (Safari not Chrome, for install to work):_
 - Open https://torsades-de-pointes.github.io/cardiomechanics/ in Safari
 - Tap the Share icon (square with arrow) → Add to Home Screen → Add
 - Check the home-screen icon: should be the ivory tile with the red heart, labeled "CardioMechanics"
-- Tap the icon to launch — it should open full-screen with no Safari address bar
+- Tap the icon to launch → it should open full-screen with no Safari address bar
 - Turn on Airplane Mode, close the app fully (swipe up), reopen it from the home screen — it should still load. That confirms offline works.
 
 _For Android 📳 (or Chrome):_
